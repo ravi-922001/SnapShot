@@ -3,7 +3,27 @@ body {
   padding: 0;
 }
 
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
 .snapshot {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.input {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.input>input {
+  padding: 10px 40px;
+  border-radius: 20px;
 }
